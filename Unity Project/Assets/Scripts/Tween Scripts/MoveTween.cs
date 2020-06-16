@@ -9,6 +9,7 @@ public class MoveTween : MonoBehaviour
     public LeanTweenType inType;
     public float duration;
     public float delay;
+    public bool Logedin;
 
     private void OnEnable()
     {
