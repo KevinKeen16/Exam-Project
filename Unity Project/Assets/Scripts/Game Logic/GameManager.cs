@@ -8,6 +8,12 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
     public GameObject loadingScreen;
+
+    /* Hier zitten alle variables van het login systeem.
+     * Dit houd ook bij of er een gebruiker ingelogt is.
+     */
+    public string Username;
+    public bool LoggedIn;
     // Start is called before the first frame update
     private void Awake()
     {

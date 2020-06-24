@@ -1,0 +1,850 @@
+fileFormatVersion: 2
+guid: 2e38b056ff096da43b08c6c815569b96
+ModelImporter:
+  serializedVersion: 20100
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Kawashima(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature
+      parentName: Kawashima(Clone)
+      position: {x: 0, y: 5.5043373, z: 0}
+      rotation: {x: -0.6770328, y: 0.09081875, z: 0.20309192, w: 0.70152134}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nw4f_root
+      parentName: Armature
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kawa_hand_base_left_hand_root
+      parentName: nw4f_root
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.70710677, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kawa_hand_base_left_hand_poly
+      parentName: kawa_hand_base_left_hand_root
+      position: {x: -0.5907481, y: 1.331929, z: 0.1873556}
+      rotation: {x: 0.49999997, y: -0.4999999, z: -0.49999997, w: 0.5000001}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kawa_hand_base_hand_all_1
+      parentName: kawa_hand_base_left_hand_root
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.50000006, y: 0.49999985, z: -0.5, w: -0.5000001}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.9999999}
+    - name: kawa_hand_base_littleA_1
+      parentName: kawa_hand_base_hand_all_1
+      position: {x: -5.704669, y: -1.139, z: 2.8475}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kawa_hand_base_littleB_1
+      parentName: kawa_hand_base_littleA_1
+      position: {x: -1.591725, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: kawa_hand_base_littleC_1
+      parentName: kawa_hand_base_littleB_1
+      position: {x: -1.175681, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: kawa_hand_base_littleD_1
+      parentName: kawa_hand_base_littleC_1
+      position: {x: -1.209637, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kawa_hand_base_ringA_1
+      parentName: kawa_hand_base_hand_all_1
+      position: {x: -6.127737, y: -1.181526, z: 1.309}
+      rotation: {x: -0.00000008940696, y: 0.49341583, z: 0.22338742, w: 0.8406182}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kawa_hand_base_ringB_1
+      parentName: kawa_hand_base_ringA_1
+      position: {x: -2.140779, y: 0, z: 0}
+      rotation: {x: 0.0000000609691, y: 0.09305146, z: 0.042128183, w: 0.9947697}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kawa_hand_base_ringC_1
+      parentName: kawa_hand_base_ringB_1
+      position: {x: -1.724827, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: kawa_hand_base_ringD_1
+      parentName: kawa_hand_base_ringC_1
+      position: {x: -1.817697, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kawa_hand_base_secondA_1
+      parentName: kawa_hand_base_hand_all_1
+      position: {x: -6.263995, y: -1.181526, z: -0.2805}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kawa_hand_base_secondB_1
+      parentName: kawa_hand_base_secondA_1
+      position: {x: -2.290588, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kawa_hand_base_secondC_1
+      parentName: kawa_hand_base_secondB_1
+      position: {x: -1.784694, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: kawa_hand_base_secondD_1
+      parentName: kawa_hand_base_secondC_1
+      position: {x: -1.77065, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kawa_hand_base_indexA_1
+      parentName: kawa_hand_base_hand_all_1
+      position: {x: -6.276921, y: -1.139, z: -1.87}
+      rotation: {x: -0, y: -0, z: -0.000000014901161, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: kawa_hand_base_indexB_1
+      parentName: kawa_hand_base_indexA_1
+      position: {x: -1.92882, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kawa_hand_base_indexC_1
+      parentName: kawa_hand_base_indexB_1
+      position: {x: -1.549568, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: kawa_hand_base_indexD_1
+      parentName: kawa_hand_base_indexC_1
+      position: {x: -1.524061, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kawa_hand_base_thumbA_1
+      parentName: kawa_hand_base_hand_all_1
+      position: {x: -1.350002, y: 0.4112773, z: -1.945235}
+      rotation: {x: -0.5457427, y: 0.6116933, z: -0.23283556, w: -0.5232436}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999998}
+    - name: kawa_hand_base_thumbB_1
+      parentName: kawa_hand_base_thumbA_1
+      position: {x: -2.741665, y: 0, z: 0}
+      rotation: {x: -0, y: -0.036601093, z: 0.103406236, w: 0.9939656}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000001}
+    - name: kawa_hand_base_thumbC_1
+      parentName: kawa_hand_base_thumbB_1
+      position: {x: -1.84052, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1}
+    - name: kawa_hand_base_thumbD_1
+      parentName: kawa_hand_base_thumbC_1
+      position: {x: -1.524061, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kawa_hand_base_right_hand_root
+      parentName: nw4f_root
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.29719755, y: -0.5589079, z: -0.5626251, w: 0.5317411}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kawa_hand_base_right_hand_poly
+      parentName: kawa_hand_base_right_hand_root
+      position: {x: 0.5907481, y: 1.331929, z: 0.1873556}
+      rotation: {x: 0.49999997, y: -0.4999999, z: -0.49999997, w: 0.5000001}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kawa_hand_base_hand_all
+      parentName: kawa_hand_base_right_hand_root
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.50000006, y: 0.49999985, z: -0.5, w: -0.5000001}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.9999999}
+    - name: kawa_hand_base_littleA
+      parentName: kawa_hand_base_hand_all
+      position: {x: -5.704669, y: -1.139, z: -2.8475}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kawa_hand_base_littleB
+      parentName: kawa_hand_base_littleA
+      position: {x: -1.591725, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: kawa_hand_base_littleC
+      parentName: kawa_hand_base_littleB
+      position: {x: -1.175681, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: kawa_hand_base_littleD
+      parentName: kawa_hand_base_littleC
+      position: {x: -1.209637, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kawa_hand_base_ringA
+      parentName: kawa_hand_base_hand_all
+      position: {x: -6.127737, y: -1.181526, z: -1.309}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kawa_hand_base_ringB
+      parentName: kawa_hand_base_ringA
+      position: {x: -2.140779, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kawa_hand_base_ringC
+      parentName: kawa_hand_base_ringB
+      position: {x: -1.724827, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: kawa_hand_base_ringD
+      parentName: kawa_hand_base_ringC
+      position: {x: -1.817697, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kawa_hand_base_secondA
+      parentName: kawa_hand_base_hand_all
+      position: {x: -6.263995, y: -1.181526, z: 0.2805}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kawa_hand_base_secondB
+      parentName: kawa_hand_base_secondA
+      position: {x: -2.290588, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kawa_hand_base_secondC
+      parentName: kawa_hand_base_secondB
+      position: {x: -1.784694, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: kawa_hand_base_secondD
+      parentName: kawa_hand_base_secondC
+      position: {x: -1.77065, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kawa_hand_base_indexA
+      parentName: kawa_hand_base_hand_all
+      position: {x: -6.276921, y: -1.139, z: 1.87}
+      rotation: {x: -0, y: -0, z: -0.000000014901161, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: kawa_hand_base_indexB
+      parentName: kawa_hand_base_indexA
+      position: {x: -1.92882, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kawa_hand_base_indexC
+      parentName: kawa_hand_base_indexB
+      position: {x: -1.549568, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: kawa_hand_base_indexD
+      parentName: kawa_hand_base_indexC
+      position: {x: -1.524061, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kawa_hand_base_thumbA
+      parentName: kawa_hand_base_hand_all
+      position: {x: -1.350002, y: 0.4112773, z: 1.945235}
+      rotation: {x: -0.62988794, y: 0.38074756, z: 0.2410389, w: 0.63259214}
+      scale: {x: 1.0000001, y: 0.99999976, z: 0.9999999}
+    - name: kawa_hand_base_thumbB
+      parentName: kawa_hand_base_thumbA
+      position: {x: -2.741665, y: 0, z: 0}
+      rotation: {x: 0.13551047, y: 0.07914395, z: -0.9009125, w: 0.40463534}
+      scale: {x: 1, y: 0.9999999, z: 0.99999994}
+    - name: kawa_hand_base_thumbC
+      parentName: kawa_hand_base_thumbB
+      position: {x: -1.84052, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
+    - name: kawa_hand_base_thumbD
+      parentName: kawa_hand_base_thumbC
+      position: {x: -1.524061, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_model_all
+      parentName: nw4f_root
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.63332784, y: -0.0000000745058, z: -0.13386872, w: 0.76221716}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_polygon
+      parentName: sparta_kawa_model_Ref_model_all
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_eye_l_parts
+      parentName: sparta_kawa_model_Ref_polygon
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_eye_r_parts
+      parentName: sparta_kawa_model_Ref_polygon
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_grass
+      parentName: sparta_kawa_model_Ref_polygon
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_frame_center
+      parentName: sparta_kawa_model_Ref_grass
+      position: {x: -0, y: -0.2601102, z: 8.961452}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_frame_out
+      parentName: sparta_kawa_model_Ref_grass
+      position: {x: -0, y: -0.01473155, z: 9.048104}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_grass_frame015
+      parentName: sparta_kawa_model_Ref_grass
+      position: {x: -0, y: 0.02390429, z: 9.048104}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_lens
+      parentName: sparta_kawa_model_Ref_grass
+      position: {x: -0, y: -0.08997093, z: 9.048104}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_left
+      parentName: sparta_kawa_model_Ref_lens
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_l_back
+      parentName: sparta_kawa_model_Ref_left
+      position: {x: -0, y: 0.08997093, z: -9.048104}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_l_front
+      parentName: sparta_kawa_model_Ref_left
+      position: {x: -0, y: 0.08997093, z: -9.048104}
+      rotation: {x: 0.00000004371139, y: 1, z: -0.00000004371139, w: 0.00000004371139}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_right
+      parentName: sparta_kawa_model_Ref_lens
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_r_back
+      parentName: sparta_kawa_model_Ref_right
+      position: {x: -0, y: 0.08997093, z: -9.048104}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_r_front
+      parentName: sparta_kawa_model_Ref_right
+      position: {x: -0, y: 0.08997093, z: -9.048104}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_horn_l_mesh
+      parentName: sparta_kawa_model_Ref_polygon
+      position: {x: -5.553042, y: 1.591354, z: 1.664554}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_horn_r_mesh
+      parentName: sparta_kawa_model_Ref_polygon
+      position: {x: 5.553042, y: 1.591354, z: 1.664554}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_model_all_polygon_hair
+      parentName: sparta_kawa_model_Ref_polygon
+      position: {x: -0, y: -1.829455, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_model_all_polygon_head_unit_l
+      parentName: sparta_kawa_model_Ref_polygon
+      position: {x: -6.727763, y: 2.791252, z: 1.48078}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_head_unit_l_inner
+      parentName: sparta_kawa_model_Ref_model_all_polygon_head_unit_l
+      position: {x: 5.661533, y: -2.952592, z: -1.48078}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_model_all_polygon_head_unit_r
+      parentName: sparta_kawa_model_Ref_polygon
+      position: {x: 7.464729, y: 2.801054, z: 1.652045}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_head_unit_r_inner
+      parentName: sparta_kawa_model_Ref_model_all_polygon_head_unit_r
+      position: {x: -7.464729, y: -2.801054, z: -1.652045}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_model_all_polygon_polygon_face
+      parentName: sparta_kawa_model_Ref_polygon
+      position: {x: -0, y: -1.829455, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_under_tooth_mesh
+      parentName: sparta_kawa_model_Ref_polygon
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_upper_tooth_mesh
+      parentName: sparta_kawa_model_Ref_polygon
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_skl_root
+      parentName: sparta_kawa_model_Ref_model_all
+      position: {x: -0, y: -12, z: 0}
+      rotation: {x: -0.49999997, y: 0.4999999, z: -0.49999997, w: 0.5000001}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_Neck
+      parentName: sparta_kawa_model_Ref_skl_root
+      position: {x: -4, y: 0, z: 0}
+      rotation: {x: 0.4049467, y: -0.9068873, z: 0.111945406, w: -0.03227893}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_face
+      parentName: sparta_kawa_model_Ref_Neck
+      position: {x: -1, y: 0, z: 0}
+      rotation: {x: 0.000000015893256, y: -0.00000001490116, z: -0.000000014901163, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_brow_l1
+      parentName: sparta_kawa_model_Ref_face
+      position: {x: -8.862763, y: -2.873952, z: 0.7058056}
+      rotation: {x: -0.108593166, y: 0.4084073, z: -0.87077516, w: 0.25131983}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: sparta_kawa_model_Ref_brow_l2
+      parentName: sparta_kawa_model_Ref_brow_l1
+      position: {x: -11.41579, y: 0, z: 0}
+      rotation: {x: -0.4545196, y: 0.54167503, z: 0.5416752, w: 0.45451975}
+      scale: {x: 0.9999997, y: 0.9999999, z: 1.0000001}
+    - name: sparta_kawa_model_Ref_brow_l3
+      parentName: sparta_kawa_model_Ref_brow_l2
+      position: {x: -2.353004, y: -0.000001020175, z: 0}
+      rotation: {x: 0.7068644, y: -0.018509708, z: 0.018510079, w: 0.70686454}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1}
+    - name: sparta_kawa_model_Ref_brow_l4
+      parentName: sparta_kawa_model_Ref_brow_l3
+      position: {x: -1.39841, y: 0, z: 0}
+      rotation: {x: -0.70710677, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_brow_r1
+      parentName: sparta_kawa_model_Ref_face
+      position: {x: -8.862763, y: -2.873952, z: -0.7058053}
+      rotation: {x: 0.018670712, y: -0.018347675, z: -0.70066905, w: 0.7130061}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: sparta_kawa_model_Ref_brow_r2
+      parentName: sparta_kawa_model_Ref_brow_r1
+      position: {x: -11.41579, y: 0, z: 0}
+      rotation: {x: -0.45451954, y: 0.54167527, z: -0.5416752, w: -0.45451945}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000001}
+    - name: sparta_kawa_model_Ref_brow_r3
+      parentName: sparta_kawa_model_Ref_brow_r2
+      position: {x: -2.353004, y: 0, z: 0}
+      rotation: {x: -0.9996574, y: -0.000000078231096, z: 0.026176946, w: 0.00000011920929}
+      scale: {x: 0.99999976, y: 0.9999997, z: 0.9999996}
+    - name: sparta_kawa_model_Ref_brow_r4
+      parentName: sparta_kawa_model_Ref_brow_r3
+      position: {x: -1.39841, y: 0, z: 0}
+      rotation: {x: 0.70710677, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_eyelid_low_l1
+      parentName: sparta_kawa_model_Ref_face
+      position: {x: -7.250911, y: 6.282764, z: 2.349916}
+      rotation: {x: -0.46390423, y: 0.5336606, z: -0.53365993, w: 0.4639034}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
+    - name: sparta_kawa_model_Ref_eyelid_low_l2
+      parentName: sparta_kawa_model_Ref_eyelid_low_l1
+      position: {x: -2.230525, y: 0, z: 0.06829918}
+      rotation: {x: 0.70710677, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_eyelid_up_l1
+      parentName: sparta_kawa_model_Ref_face
+      position: {x: -7.250911, y: 6.282764, z: 2.349916}
+      rotation: {x: -0.54952496, y: 0.4449964, z: -0.44499704, w: 0.54952556}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1.0000001}
+    - name: sparta_kawa_model_Ref_eyelid_up_l2
+      parentName: sparta_kawa_model_Ref_eyelid_up_l1
+      position: {x: -2.230525, y: 0, z: 0.06829918}
+      rotation: {x: 0.70710677, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_eyelid_low_r1
+      parentName: sparta_kawa_model_Ref_face
+      position: {x: -7.250911, y: 6.282764, z: -2.349916}
+      rotation: {x: -0.46390358, y: 0.53366023, z: 0.5336603, w: -0.46390393}
+      scale: {x: 1.0000006, y: 1.0000004, z: 1.0000004}
+    - name: sparta_kawa_model_Ref_eyelid_low_r2
+      parentName: sparta_kawa_model_Ref_eyelid_low_r1
+      position: {x: -2.230525, y: 0, z: -0.06829915}
+      rotation: {x: -0.70710677, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_eyelid_up_r1
+      parentName: sparta_kawa_model_Ref_face
+      position: {x: -7.250911, y: 6.282764, z: -2.349916}
+      rotation: {x: -0.5495253, y: 0.44499674, z: 0.44499663, w: -0.54952514}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000002}
+    - name: sparta_kawa_model_Ref_eyelid_up_r2
+      parentName: sparta_kawa_model_Ref_eyelid_up_r1
+      position: {x: -2.230525, y: 0, z: -0.06829916}
+      rotation: {x: -0.70710677, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_lip_low_l1
+      parentName: sparta_kawa_model_Ref_face
+      position: {x: -1.774888, y: 2.047007, z: 0}
+      rotation: {x: -0.488088, y: 0.52138114, z: -0.41030064, w: 0.5670849}
+      scale: {x: 0.9999995, y: 1.0000001, z: 1}
+    - name: sparta_kawa_model_Ref_lip_low_l2
+      parentName: sparta_kawa_model_Ref_lip_low_l1
+      position: {x: -7.066646, y: 0, z: 0}
+      rotation: {x: 0.70710677, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_lip_l1
+      parentName: sparta_kawa_model_Ref_face
+      position: {x: -2.323378, y: 3.437285, z: 2.349916}
+      rotation: {x: -0.52133346, y: 0.47771403, z: -0.47771484, w: 0.5213342}
+      scale: {x: 1.0000001, y: 0.9999999, z: 0.9999997}
+    - name: sparta_kawa_model_Ref_lip_l2
+      parentName: sparta_kawa_model_Ref_lip_l1
+      position: {x: -5.026884, y: 0, z: 0}
+      rotation: {x: 0.70710677, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_lip_low_1
+      parentName: sparta_kawa_model_Ref_face
+      position: {x: -1.774888, y: 2.047007, z: 0}
+      rotation: {x: -0.512916, y: 0.48673895, z: -0.48674133, w: 0.51291835}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000004}
+    - name: sparta_kawa_model_Ref_lip_low_2
+      parentName: sparta_kawa_model_Ref_lip_low_1
+      position: {x: -7.066646, y: 0, z: 0}
+      rotation: {x: 0.70710677, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_under_tooth
+      parentName: sparta_kawa_model_Ref_lip_low_1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.48674124, y: -0.48673904, z: 0.51291835, w: 0.5129161}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_under_tooth_end
+      parentName: sparta_kawa_model_Ref_under_tooth
+      position: {x: 0.03057117, y: -0.2309683, z: 6.102514}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_lip_low_r1
+      parentName: sparta_kawa_model_Ref_face
+      position: {x: -1.774888, y: 2.047007, z: 0}
+      rotation: {x: 0.5670846, y: -0.41030037, z: 0.52138144, w: -0.48808825}
+      scale: {x: 1.0000006, y: 1.0000005, z: 1.0000001}
+    - name: sparta_kawa_model_Ref_lip_low_r2
+      parentName: sparta_kawa_model_Ref_lip_low_r1
+      position: {x: -7.066646, y: 0, z: 0}
+      rotation: {x: 0.7107379, y: -0.0018651434, z: -0.003849293, w: 0.70344394}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
+    - name: sparta_kawa_model_Ref_lip_r1
+      parentName: sparta_kawa_model_Ref_face
+      position: {x: -2.323378, y: 3.437285, z: -2.349916}
+      rotation: {x: -0.5213343, y: 0.477715, z: 0.47771385, w: -0.52133334}
+      scale: {x: 1.0000005, y: 1.0000007, z: 1.0000008}
+    - name: sparta_kawa_model_Ref_lip_r2
+      parentName: sparta_kawa_model_Ref_lip_r1
+      position: {x: -5.026884, y: 0, z: 0}
+      rotation: {x: -0.70710677, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_head_parts_r
+      parentName: sparta_kawa_model_Ref_face
+      position: {x: -9.801053, y: 1.652045, z: -7.464729}
+      rotation: {x: -0.50000006, y: 0.49999994, z: 0.49999985, w: 0.5000002}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_horn_r
+      parentName: sparta_kawa_model_Ref_head_parts_r
+      position: {x: -2.853763, y: 3.633633, z: 3.06755}
+      rotation: {x: 0.14554933, y: -0.057333395, z: -0.36198884, w: 0.91896266}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_head_parts_l
+      parentName: sparta_kawa_model_Ref_face
+      position: {x: -9.791252, y: 1.48078, z: 6.727763}
+      rotation: {x: -0.50000006, y: 0.49999994, z: 0.49999985, w: 0.5000002}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_horn_l
+      parentName: sparta_kawa_model_Ref_head_parts_l
+      position: {x: 2.116797, y: 3.643434, z: 3.238816}
+      rotation: {x: -0.36198905, y: 0.9189626, z: 0.14554939, w: -0.05733345}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: sparta_kawa_model_Ref_eye_r1
+      parentName: sparta_kawa_model_Ref_face
+      position: {x: -7.250911, y: 6.282764, z: -2.349916}
+      rotation: {x: -0.71364814, y: 0.7005044, z: -0.000002927845, w: 0.0000027143078}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.9999998}
+    - name: sparta_kawa_model_Ref_eye_r2
+      parentName: sparta_kawa_model_Ref_eye_r1
+      position: {x: -1.843181, y: 0, z: 0}
+      rotation: {x: -0.70710677, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_eye_l1
+      parentName: sparta_kawa_model_Ref_face
+      position: {x: -7.250911, y: 6.282764, z: 2.349916}
+      rotation: {x: -0.71364814, y: 0.7005044, z: -0.000002927845, w: 0.0000027143078}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.9999998}
+    - name: sparta_kawa_model_Ref_eye_l2
+      parentName: sparta_kawa_model_Ref_eye_l1
+      position: {x: -1.843181, y: 0, z: 0}
+      rotation: {x: 0.70710677, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_glasses_1
+      parentName: sparta_kawa_model_Ref_face
+      position: {x: -7.404442, y: 1.584345, z: 0}
+      rotation: {x: 0.00000008067808, y: -0.000000015649992, z: -0.7071067, w: 0.7071068}
+      scale: {x: 0.99999964, y: 1, z: 0.9999992}
+    - name: sparta_kawa_model_Ref_glasses_2
+      parentName: sparta_kawa_model_Ref_glasses_1
+      position: {x: -7.673813, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_lip_up_1
+      parentName: sparta_kawa_model_Ref_face
+      position: {x: -2.725828, y: 5.105618, z: 0}
+      rotation: {x: -0.5, y: 0.4999999, z: -0.50000006, w: 0.5000001}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000004}
+    - name: sparta_kawa_model_Ref_lip_up_2
+      parentName: sparta_kawa_model_Ref_lip_up_1
+      position: {x: -4.231898, y: 0, z: 0}
+      rotation: {x: 0.70710677, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_upper_tooth
+      parentName: sparta_kawa_model_Ref_lip_up_1
+      position: {x: 3.058612, y: 0, z: 0.9509401}
+      rotation: {x: -0.49999997, y: -0.4999999, z: 0.49999997, w: 0.5000001}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_upper_tooth_end
+      parentName: sparta_kawa_model_Ref_upper_tooth
+      position: {x: -0.02446277, y: 1.0549, z: 6.021733}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kawa_hand_base_left_hand_poly__kawa_hand_base_kawa_poly_hand_skin
+      parentName: Kawashima(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kawa_hand_base_right_hand_poly__kawa_hand_base_kawa_poly_hand_skin
+      parentName: Kawashima(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_eye_l_parts__sparta_kawa_model_Ref_eye_base_mat
+      parentName: Kawashima(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_eye_l_parts__sparta_kawa_model_Ref_eye_mat
+      parentName: Kawashima(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_eye_l_parts__sparta_kawa_model_Ref_eye_spot_mat
+      parentName: Kawashima(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_eye_r_parts__sparta_kawa_model_Ref_eye_base_mat
+      parentName: Kawashima(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_eye_r_parts__sparta_kawa_model_Ref_eye_mat
+      parentName: Kawashima(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_eye_r_parts__sparta_kawa_model_Ref_eye_spot_mat
+      parentName: Kawashima(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_frame_center__sparta_kawa_model_Ref_frame_mat
+      parentName: Kawashima(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_frame_out__sparta_kawa_model_Ref_frame_mat
+      parentName: Kawashima(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_grass_frame015__sparta_kawa_model_Ref_frame_mat
+      parentName: Kawashima(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_l_back__sparta_kawa_model_Ref_glass_mat
+      parentName: Kawashima(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_l_front__sparta_kawa_model_Ref_glass_mat
+      parentName: Kawashima(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_r_back__sparta_kawa_model_Ref_glass_mat
+      parentName: Kawashima(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_r_front__sparta_kawa_model_Ref_glass_mat
+      parentName: Kawashima(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_horn_l_mesh__sparta_kawa_model_Ref_horn
+      parentName: Kawashima(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_horn_r_mesh__sparta_kawa_model_Ref_horn
+      parentName: Kawashima(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_model_all_polygon_hair__sparta_kawa_model_Ref_hair_mat
+      parentName: Kawashima(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_model_all_polygon_head_unit_l__sparta_kawa_model_Ref_hair_mat
+      parentName: Kawashima(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_model_all_polygon_head_unit_l__sparta_kawa_model_Ref_skin_mat
+      parentName: Kawashima(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_head_unit_l_inner__sparta_kawa_model_Ref_hair_mat
+      parentName: Kawashima(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_model_all_polygon_head_unit_r__sparta_kawa_model_Ref_hair_mat
+      parentName: Kawashima(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_model_all_polygon_head_unit_r__sparta_kawa_model_Ref_skin_mat
+      parentName: Kawashima(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_head_unit_r_inner__sparta_kawa_model_Ref_hair_mat
+      parentName: Kawashima(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_model_all_polygon_polygon_face__sparta_kawa_model_Ref_eye_brow_mat
+      parentName: Kawashima(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_model_all_polygon_polygon_face__sparta_kawa_model_Ref_in_mouse
+      parentName: Kawashima(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_model_all_polygon_polygon_face__sparta_kawa_model_Ref_in_norse
+      parentName: Kawashima(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_model_all_polygon_polygon_face__sparta_kawa_model_Ref_rip_mat
+      parentName: Kawashima(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_model_all_polygon_polygon_face__sparta_kawa_model_Ref_skin_mat
+      parentName: Kawashima(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_under_tooth_mesh__sparta_kawa_model_Ref_tooth_mat
+      parentName: Kawashima(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sparta_kawa_model_Ref_upper_tooth_mesh__sparta_kawa_model_Ref_tooth_mat
+      parentName: Kawashima(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: Armature
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
