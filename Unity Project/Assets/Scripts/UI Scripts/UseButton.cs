@@ -5,18 +5,8 @@ using UnityEngine;
 public class UseButton : MonoBehaviour
 {
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    /* Starts the game if called
+     */
     public void StartGame()
     {
         GameManager.instance.LoadGame();

@@ -6,7 +6,8 @@ using TMPro;
 
 public class Registration : MonoBehaviour
 {
-    // Start is called before the first frame update
+    /* Variables for the register system are located here
+     */
     public InputField nameField;
     public InputField passwordField;
     public TextMeshProUGUI Output;
@@ -14,11 +15,17 @@ public class Registration : MonoBehaviour
 
     public Button submitButton;
 
+    /* Call this function to initiate the register procces
+     */
     public void CallRegister()
     {
         StartCoroutine(Register());
     }
 
+    /*This is the register function. It passes the contents on to the php files and then checks for the return.
+     * If the return in 0 or null we accept the user into the system and notify the user that their registration was succesfull.
+     * if the server returns any error code we give it back to the game and display the error.
+     */
     IEnumerator Register()
     {
         WWWForm form = new WWWForm();
@@ -29,7 +36,7 @@ public class Registration : MonoBehaviour
         if (www.text == "0")
         {
             animator.GetComponent<AnimTest>().CheckTag();
-            Output.text = "<action=talk>User created succesfully";
+            Output.text = "<action=talk>Je staat bij deze in mijn boekje";
         }
         else
         {
@@ -37,6 +44,9 @@ public class Registration : MonoBehaviour
         }
     }
 
+    /* This function checks if the input fields have content corresponding with the set specifications
+     * if it does, we make the submit button interactable
+     */
     public void VerifyInputs()
     {
         submitButton.interactable = (nameField.text.Length >= 8 && passwordField.text.Length >= 8);

@@ -12,7 +12,8 @@ public class TabGroup : MonoBehaviour
     public TabButton selectedTab;
     public List<GameObject> objectsToSwap;
 
-    
+    /*Subscribe function
+     */
     public void Subscribe(TabButton button)
     {
         if(tabButtons == null)

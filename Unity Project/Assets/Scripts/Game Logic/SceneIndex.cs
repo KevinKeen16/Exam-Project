@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-    // Start is called before the first frame update
+/* This is used as a list for all the scenes in the game.
+ * This way i can just call the scene name instead of remembering what number which scene has
+ */
     public enum SceneIndexes
     {
         MANAGER = 0,
