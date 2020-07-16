@@ -32,7 +32,7 @@ public class Stone : MonoBehaviour
         {
             int total = routePosition + steps;
             steps = Random.Range(1, 7);
-            dice.text = ("Dice Roll: " + steps.ToString());
+            dice.text = (steps.ToString());
             Debug.Log("Dice rolled: " + steps);
             StartCoroutine(Move());
 

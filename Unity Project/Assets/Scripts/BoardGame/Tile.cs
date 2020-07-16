@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor.UI;
 using TMPro;
 using UnityEditor;
 
@@ -11,13 +10,16 @@ public class Tile : MonoBehaviour
     public TileType tileType;
     public TurnCounter Turns;
     public Stone player;
-    public GameObject UI;
+    public GameObject DebugUI;
     public GameObject Question;
     public TextMeshProUGUI text;
     public bool onetime;
+    public GetText Quest1;
+
 
     [Header("Tile Parts")]
     public Renderer TileSprite;
+    public GameObject Image;
 
     [Header("Tile Type Sprites")]
     public Material green;
@@ -44,9 +46,6 @@ public class Tile : MonoBehaviour
         //    Turns.SwitchTurn();
         //}
 
-        UI.SetActive(false);
-        text.text = "Next Turn";
-        Turns.SwitchTurn();
         onetime = false;
 
         //if (Turns.p2 == true && Turns.p1 == false)
@@ -123,9 +122,12 @@ public class Tile : MonoBehaviour
 
     public void OnTriggerStay(Collider other)
     {
+        //Debug.Log("Trigger Registers");
         if (player.isMoving == false && player.StartTurn == false && player.tag == "CurrentPlayer" && !onetime)
         {
             TileAction();
+            player.GetComponent<BoxCollider>().enabled = false;
+            Debug.Log("Triggered Tile");
         }
         else
         {
@@ -133,76 +135,79 @@ public class Tile : MonoBehaviour
         }
     }
 
-    public void Ja()
-    {
-        player.Coins = (player.Coins + 3);
-        player.UpdateScore();
-        Question.SetActive(false);
-        Turns.SwitchTurn();
-        onetime = false;
-    }
+    //public void Ja()
+    //{
+    //    player.Coins = (player.Coins + 3);
+    //    player.UpdateScore();
+    //    Question.SetActive(false);
+    //    Turns.SwitchTurn();
+    //    onetime = false;
+    //}
 
-    public void Nee()
-    {
-        player.Coins = (player.Coins + 0);
-        player.UpdateScore();
-        Question.SetActive(false);
-        Turns.SwitchTurn();
-        onetime = false;
-    }
+    //public void Nee()
+    //{
+    //    player.Coins = (player.Coins + 0);
+    //    player.UpdateScore();
+    //    Question.SetActive(false);
+    //    Turns.SwitchTurn();
+    //    onetime = false;
+    //}
 
-    public void JaMaarBlauw()
-    {
-        player.Coins = (player.Coins + 5);
-        player.UpdateScore();
-        Question.SetActive(false);
-        Turns.SwitchTurn();
-        onetime = false;
-    }
+    //public void JaMaarBlauw()
+    //{
+    //    player.Coins = (player.Coins + 5);
+    //    player.UpdateScore();
+    //    Question.SetActive(false);
+    //    Turns.SwitchTurn();
+    //    onetime = false;
+    //}
 
     public void TileAction()
     {
         Debug.Log("Tile Triggerd");
-        onetime = true;
+        //onetime = true;
         switch (tileType)
         {
             case TileType.green:
-                UI.SetActive(true);
+                DebugUI.SetActive(true);
                 text.text = "No event";
                 //Debug.Log("green tile");
                 break;
 
             case TileType.blue:
                 Question.SetActive(true);
+                Quest1.getquestion();
                 //Debug.Log("blue tile");
                 break;
 
             case TileType.dash:
-                UI.SetActive(true);
+                DebugUI.SetActive(true);
                 text.text = "Trigger Second Dice Roll";
                 //Debug.Log("dash tile");
                 break;
 
             case TileType.vs:
-                UI.SetActive(true);
+                DebugUI.SetActive(true);
                 text.text = "Trigger VS Question";
                 //Debug.Log("vs Tile");
                 break;
 
             case TileType.spevent:
-                UI.SetActive(true);
+                DebugUI.SetActive(true);
                 text.text = "Trigger Special Event";
                 //Debug.Log("special event tile");
                 break;
 
             case TileType.coin:
-                UI.SetActive(true);
+                DebugUI.SetActive(true);
+                player.Coins = (player.Coins + 3);
                 text.text = "Trigger Add Coin Event";
                 //Debug.Log("add coin tile");
                 break;
 
             case TileType.losecoin:
-                UI.SetActive(true);
+                DebugUI.SetActive(true);
+                player.Coins = (player.Coins - 3);
                 text.text = "Trigger Remove Coin Event";
                 //Debug.Log("lose coin tile");
                 break;

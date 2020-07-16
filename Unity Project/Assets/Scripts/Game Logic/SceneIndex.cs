@@ -12,5 +12,6 @@ using UnityEngine;
         TITLE_SCREEN = 1,
         TESTSCENE = 2,
         LEARNING = 3,
+        BOARDGAME = 4,
     }
 

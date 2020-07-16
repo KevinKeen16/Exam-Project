@@ -41,7 +41,7 @@ public class GameManager : MonoBehaviour
     {
         loadingScreen.gameObject.SetActive(true);
         scenesLoading.Add(SceneManager.UnloadSceneAsync((int)SceneIndexes.TITLE_SCREEN));
-        scenesLoading.Add(SceneManager.LoadSceneAsync((int)SceneIndexes.LEARNING, LoadSceneMode.Additive));
+        scenesLoading.Add(SceneManager.LoadSceneAsync((int)SceneIndexes.BOARDGAME, LoadSceneMode.Additive));
 
         StartCoroutine(GetSceneLoadProgress());
     }
